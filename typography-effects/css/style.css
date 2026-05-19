@@ -1,0 +1,16 @@
+@font-face {
+    font-family: niconne;
+    src: url(../font/Niconne-Regular.ttf);
+}
+.typo {
+    font-family: niconne;
+    text-shadow: 6px 6px #e93d27 , 9px 9px #ee952c, 12px 12px #3eac90, 15px 15px #007472, 18px 18px #00252e, 21px 21px 20px #300105;;
+    font-size: 240px;
+    color: #fdead3;
+    letter-spacing: 2px;
+}
+
+.back {
+    background-color: #cf2838;
+    padding-left: 20vw;
+}

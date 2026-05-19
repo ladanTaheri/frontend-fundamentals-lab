@@ -23,6 +23,6 @@ This repository focuses on rebuilding strong foundations through hands-on practi
 - Building structured educational and teaching materials
 - Documenting continuous learning and practice
 
-## Notes
+## Notes -
 
 Each folder contains a focused mini-project or exercise dedicated to a specific frontend concept or UI pattern.

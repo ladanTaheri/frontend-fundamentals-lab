@@ -1,15 +1,16 @@
-# Custom Button Component
+# Custom Buttons
 
-A custom styled button built with HTML and CSS to practice modern UI styling techniques.
+A collection of custom button UI exercises built with HTML and CSS.
 
-## Concepts Practiced
+## Topics
 
-- Button styling
 - Hover effects
+- Active states
+- Shadows and depth
+- Button styling
+- UI interactions
 - Transitions and animations
-- Spacing and alignment
-- UI component design
 
 ## Goal
 
-Improving frontend UI implementation skills through reusable component practice.
+Practicing reusable UI component design and improving frontend styling skills.

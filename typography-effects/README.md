@@ -1,16 +1,18 @@
 
-# 3D Typography Effect
+# Typography Effects
 
-A simple HTML and CSS typography exercise focused on layered text effects and visual styling techniques.
+A collection of typography styling exercises and text effect implementations using HTML and CSS.
 
-## Concepts Practiced
+## Topics
 
-- Text shadow layering
-- Typography styling
-- CSS positioning
-- Color combinations
+- Text shadows
+- Layered typography
 - Visual depth effects
+- Creative text styling
+- Color combinations
 
 ## Goal
 
-Practicing creative text styling and improving CSS visual implementation skills.
+Practicing creative typography techniques and improving visual CSS implementation skills.
+
+

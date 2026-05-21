@@ -1,18 +1,21 @@
 
+
 # Typography Effects
 
-A collection of typography styling exercises and text effect implementations using HTML and CSS.
+A collection of typography styling examples and creative text effect implementations using HTML and CSS.
 
-## Topics
+## Included Examples
 
-- Text shadows
-- Layered typography
-- Visual depth effects
-- Creative text styling
-- Color combinations
+- Layered text effects
+- Shadow typography
+- Decorative headings
+- Stylized text layouts
 
-## Goal
+## Technologies
 
-Practicing creative typography techniques and improving visual CSS implementation skills.
+- HTML5
+- CSS3
 
+## Purpose
 
+This section demonstrates typography styling techniques and visual text presentation examples for frontend UI development.

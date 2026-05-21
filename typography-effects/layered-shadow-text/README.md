@@ -1,16 +1,24 @@
 
-# 3D Typography Effect
+# Layered Shadow Text
 
-A simple HTML and CSS typography exercise focused on layered text effects and visual styling techniques.
+A typography effect example featuring layered text shadows built with HTML and CSS.
 
-## Concepts Practiced
+## Features
 
-- Text shadow layering
-- Typography styling
-- CSS positioning
-- Color combinations
-- Visual depth effects
+- Multi-layer text shadows
+- Decorative typography styling
+- Depth and visual emphasis
+- Custom color combinations
 
-## Goal
+## Technologies
 
-Practicing creative text styling and improving CSS visual implementation skills.
+- HTML5
+- CSS3
+
+## Overview
+
+This example demonstrates layered typography effects using CSS text-shadow techniques for visual styling and UI presentation.
+
+
+
+

@@ -1,28 +1,22 @@
 # Frontend Fundamentals Lab
 
-A curated collection of frontend exercises, UI implementations, and concept reviews created while revisiting and strengthening core frontend development skills.
+A curated collection of frontend UI examples and foundational implementations built with HTML and CSS.
 
-This repository focuses on rebuilding strong foundations through hands-on practice and real UI implementation.
+## Categories
 
-## Topics Covered
-
-- HTML5 semantic elements
-- CSS layouts and positioning
-- Typography effects
+- Custom buttons
 - Styled tables
-- Custom buttons and components
-- Responsive design
-- Flexbox & Grid
-- CSS animations and transitions
-- UI styling practice
+- Navigation menus
+- Typography effects
+- Layout exercises
+- UI components
+
+## Technologies
+
+- HTML5
+- CSS3
+- Font Awesome
 
 ## Purpose
 
-- Refreshing frontend fundamentals
-- Improving implementation speed and UI accuracy
-- Building structured educational and teaching materials
-- Documenting continuous learning and practice
-
-## Notes -
-
-Each folder contains a focused mini-project or exercise dedicated to a specific frontend concept or UI pattern.
+This repository contains educational frontend examples and UI implementation samples focused on core frontend development concepts and layout techniques.

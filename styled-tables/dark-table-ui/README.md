@@ -1,12 +1,23 @@
 
-# Styled Dark Table
+# Dark Dashboard Table
 
-A simple dark-themed responsive table built with HTML and CSS.
+A dark-themed dashboard table UI example built with HTML and CSS.
 
-## Concepts
+## Features
 
-- Table styling
-- Spacing
-- Colors
-- Layout alignment
+- Dark mode table styling
+- Alternating row colors
+- Hover-highlighted cells
+- Custom typography
+- Dashboard-inspired UI layout
+
+## Technologies
+
+- HTML5
+- CSS3
+
+## Overview
+
+This example demonstrates table styling techniques for dashboard-style interfaces using classic CSS layout and hover interactions.
+
 

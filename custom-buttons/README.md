@@ -1,16 +1,20 @@
 # Custom Buttons
 
-A collection of custom button UI exercises built with HTML and CSS.
+A collection of custom button UI examples created with HTML and CSS.
 
-## Topics
+## Included Examples
 
-- Hover effects
-- Active states
-- Shadows and depth
-- Button styling
-- UI interactions
-- Transitions and animations
+- Shadow buttons
+- Press-effect buttons
+- Hover interactions
+- Rounded button styles
+- UI state variations
 
-## Goal
+## Technologies
 
-Practicing reusable UI component design and improving frontend styling skills.
+- HTML5
+- CSS3
+
+## Purpose
+
+This section contains reusable button UI examples and styling demonstrations for frontend development reference and educational purposes.

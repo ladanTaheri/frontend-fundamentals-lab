@@ -1,18 +1,21 @@
+
 # Styled Tables
 
-A collection of table UI exercises and styling practices built with HTML and CSS.
+A collection of styled table UI examples built with HTML and CSS.
 
-## Topics
+## Included Examples
 
-- Dark mode tables
-- Hover effects
-- Table layouts
-- Typography and spacing
-- Dashboard-style UI
-- Responsive table styling
+- Dark dashboard tables
+- Hover-highlighted tables
+- Typography-focused table layouts
+- Alternating row styles
 
-## Goal
+## Technologies
 
-Improving table design and frontend UI implementation through hands-on practice.
+- HTML5
+- CSS3
 
+## Purpose
+
+This section showcases table styling techniques and frontend UI layout examples for educational and demonstration purposes.
 

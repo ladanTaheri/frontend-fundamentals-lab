@@ -1,15 +1,21 @@
-# Custom Button Component
 
-A custom styled button built with HTML and CSS to practice modern UI styling techniques.
+# Press Effect Button
 
-## Concepts Practiced
+A custom button UI example featuring a press-effect interaction built with HTML and CSS.
 
-- Button styling
-- Hover effects
-- Transitions and animations
-- Spacing and alignment
-- UI component design
+## Features
 
-## Goal
+- Shadow-based press effect
+- Hover interactions
+- Rounded button styling
+- Simple responsive structure
+- Clean UI design
 
-Improving frontend UI implementation skills through reusable component practice.
+## Technologies
+
+- HTML5
+- CSS3
+
+## Overview
+
+This example demonstrates a classic press-effect button using CSS shadows and interaction states.

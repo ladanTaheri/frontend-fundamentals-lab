@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Navbar</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="assets/font-awesome/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <ul>
+      <li>
+        <a href="#" class="active"><i class="fa fa-home"></i>home</a>
+      </li>
+      <li>
+        <a href="#"><i class="fa fa-cogs"></i>flyout</a>
+      </li>
+      <li>
+        <a href="#"><i class="fa fa-cogs"></i>services</a>
+      </li>
+      <li>
+        <a href="#"><i class="fa fa-briefcase"></i>portfolio</a>
+      </li>
+      <li>
+        <a href="#"><i class="fa fa-bars"></i>mega menu</a>
+      </li>
+      <li>
+        <a href="#"><i class="fa fa-rss"></i>blog</a>
+      </li>
+      <li>
+        <a href="#"><i class="fa fa-picture-o"></i>images</a>
+      </li>
+      <li>
+        <a href="#"><i class="fa fa-envelope-o"></i>contact</a>
+      </li>
+    </ul>
+  </body>
+</html>

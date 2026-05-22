@@ -2,7 +2,7 @@
 
 # Typography Effects
 
-A collection of typography styling examples and creative text effect implementations using HTML and CSS.
+A collection of typography-focused UI examples and decorative text implementations built with HTML and CSS.
 
 ## Included Examples
 

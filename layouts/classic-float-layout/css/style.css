@@ -1,0 +1,47 @@
+
+body {
+    background-color: #fed08f;
+    color: #fed08f;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header {
+    background-color: #ff4975;
+    height: 50vh;
+}
+
+section {
+    height: 40vh;
+    padding: 4px 0;
+}
+
+main {
+    background-color: #ffaa3a;
+    height: 40vh;
+    width: 50vw;
+    float: left;
+}
+
+aside {
+    background-color: #9ab680;
+    height: 40vh;
+    width: 30vw;
+    float: right;
+}
+
+section::before,
+section::after {
+    content: " ";
+    display: table;
+}
+
+section::after {
+    clear: both;
+}
+
+footer {
+    background-color: #7494df;
+    height: 10vh;
+}

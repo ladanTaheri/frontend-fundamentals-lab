@@ -1,6 +1,6 @@
 # Custom Buttons
 
-A collection of custom button UI examples created with HTML and CSS.
+A collection of custom button and interactive UI element examples created with HTML and CSS.
 
 ## Included Examples
 
@@ -8,13 +8,15 @@ A collection of custom button UI examples created with HTML and CSS.
 - Press-effect buttons
 - Hover interactions
 - Rounded button styles
+- Interactive icons
 - UI state variations
 
 ## Technologies
 
 - HTML5
 - CSS3
+- Font Awesome
 
 ## Purpose
 
-This section contains reusable button UI examples and styling demonstrations for frontend development reference and educational purposes.
+This section contains reusable button styles and interactive UI examples for practicing frontend styling, hover effects, transitions, and component-based interface design.

@@ -1,21 +1,22 @@
 # Navigation Menus
 
-A collection of navigation bar and menu UI examples built with HTML and CSS.
+A collection of navigation menu examples built with different CSS layout techniques.
 
 ## Included Examples
 
-- Simple horizontal navigation bars
-- Hover interactions
-- Active menu states
-- Icon-based navigation items
-- Layout variations
+- Inline-block navigation bars
+- Flexbox navigation bars
+- Icon-based menus
+- Horizontal navigation layouts
+- Interactive menu states
 
 ## Technologies
 
 - HTML5
 - CSS3
+- Flexbox
 - Font Awesome
 
 ## Purpose
 
-This repository section contains frontend navigation UI examples and layout implementations for educational and demonstration purposes.
+This section demonstrates different approaches to building navigation menus, focusing on layout techniques, alignment methods, and interactive UI patterns.

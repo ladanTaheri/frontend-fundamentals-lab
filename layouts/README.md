@@ -5,6 +5,7 @@ A collection of page layout examples and responsive UI structures built with HTM
 ## Included Examples
 
 - Float-based layouts
+- Flexbox layouts
 - Responsive page layouts
 - Multi-column structures
 - Header and footer layouts
@@ -16,8 +17,9 @@ A collection of page layout examples and responsive UI structures built with HTM
 
 - HTML5
 - CSS3
+- Flexbox
 - Media Queries
 
 ## Purpose
 
-This section contains frontend layout examples demonstrating classic and responsive page structure techniques using semantic HTML and CSS layout methods.
+This section contains frontend layout examples demonstrating classic and responsive page structure techniques using semantic HTML and modern CSS layout methods.

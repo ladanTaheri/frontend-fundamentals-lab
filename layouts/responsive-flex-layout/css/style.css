@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to right, #3f0140, #b53d3e);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 20px;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+header ul li a:hover {
+    color: #feb703;
+
+}
+
+.banner {
+    background-color: #feb703;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: column;
+}
+
+.logo {
+    width: 50%;
+    height: auto;
+}
+
+.subscribe {
+    text-decoration: none;
+    color: #4e88d2;
+}
+
+.subscribe:hover {
+    color: #b53d3e;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px 0;
+}
+
+footer {
+    display: flex;
+    height: 200px;
+    background-color: #5995DA;
+    justify-content: space-between;
+}
+
+footer .social {
+    background-color: #D6E9FE;
+    display: flex;
+    flex-basis: 30%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer .menu {
+    background-color: #D6E9FE;
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+
+}
+
+footer nav ul a {
+    color: #5995DA;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer nav ul a:hover {
+    color: #feb703;
+}
+
+
+@media screen and (min-width:992px) {
+
+    .banner,
+    footer nav ul {
+        flex-flow: row;
+    }
+}

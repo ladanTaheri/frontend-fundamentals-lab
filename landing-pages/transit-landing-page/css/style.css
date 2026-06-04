@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+header {
+    background-image: url(../images/dark_tint.png), url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 20px 0 20px;
+}
+
+.navbar nav {
+    background-color: transparent;
+}
+
+.navbar nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.navbar nav ul li a {
+    font-size: 16px;
+    display: block;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 20px 0;
+    transition: color 0.2s ease;
+}
+
+.navbar nav ul li a:hover {
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.btn-sign-up {
+    color: #000;
+    background-color: #fff;
+    margin: 10px 0;
+}
+
+.navbar h1 {
+    color: #fff;
+    font-size: 22px;
+    padding-top: 15px;
+    transition: border 0.2s ease;
+
+}
+
+.navbar h1:hover {
+    border-bottom: 1px solid #fff;
+}
+
+@media screen and (min-width:576px) {
+    .navbar nav ul {
+        gap: 25px;
+    }
+}
+
+/* banner */
+.banner {
+    text-align: center;
+    color: #fff;
+    margin-top: 150px;
+}
+
+.banner h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 16px;
+    margin-bottom: 15px;
+
+}
+
+.banner button {
+    background-color: rgb(60, 173, 212);
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 20px;
+    font-weight: 100;
+    transition: background-color .2s ease;
+}
+
+.banner button:hover {
+    background-color: rgb(151, 223, 246);
+
+}
+
+@media screen and (min-width:576px) {
+    .banner h3 {
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+
+    .banner p {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+
+    .banner button {
+        font-size: 18px;
+        padding: 20px 40px;
+
+    }
+}

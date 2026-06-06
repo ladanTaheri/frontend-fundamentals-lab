@@ -1,3 +1,6 @@
+@import url(../assets/font-awesome/css/font-awesome.min.css);
+
+/* public */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -19,6 +22,30 @@ a {
     cursor: pointer;
 }
 
+.heading {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 16px;
+    margin-bottom: 60px;
+
+}
+
+
+@media screen and (min-width:576px) {
+    .heading {
+        font-size: 45px;
+    }
+
+    .description {
+        font-size: 23px;
+    }
+}
+
+/* header */
 header {
     background-image: url(../images/dark_tint.png), url(../images/banner.jpg);
     background-position: center;
@@ -129,5 +156,82 @@ header {
         font-size: 18px;
         padding: 20px 40px;
 
+    }
+}
+
+/* features */
+
+.features {
+    background-color: #F5F5F5;
+    border-bottom: 1px solid rgba(144, 144, 144, 0.25);
+    border-top: 1px solid rgba(144, 144, 144, 0.25);
+    min-height: 650px;
+    text-align: center;
+    padding: 90px 40px;
+}
+
+.features h3 {
+    color: #474747;
+
+}
+
+.features p {
+    color: #858585;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards section {
+    background-color: #fff;
+    border: 1px solid rgba(144, 144, 144, 0.25);
+    padding: 50px 35px;
+    border-radius: 5px;
+    max-width: 350px;
+    flex: 1;
+}
+
+.cards h5 {
+    color: #858589;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.cards p {
+    color: #444;
+    font-size: 15px;
+    line-height: 26px;
+
+}
+
+.icon i {
+    border-radius: 50%;
+    font-size: 36px;
+    color: #fff;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+.blue {
+    background-color: #3cadd4;
+}
+
+.green {
+    background-color: #add43c;
+}
+
+.red {
+    background-color: #d43c61;
+}
+
+@media screen and (min-width:992px) {
+    .cards {
+        flex-direction: row;
     }
 }

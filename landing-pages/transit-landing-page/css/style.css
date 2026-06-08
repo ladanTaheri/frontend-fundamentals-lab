@@ -24,7 +24,7 @@ a {
 
 .heading {
     font-size: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     font-weight: 700;
     color: #474747;
 }
@@ -50,6 +50,28 @@ a {
 
 }
 
+.btn-secondary {
+    background-color: rgb(56, 59, 67);
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+    font-weight: 100;
+    max-width: 220px;
+    width: 100%;
+    margin: 0 auto;
+    transition: background-color .2s ease;
+}
+
+.btn-secondary:hover {
+    background-color: rgb(99, 99, 101);
+
+}
+
+.chapter {
+    min-height: 650px;
+    text-align: center;
+    padding: 90px 40px;
+}
 
 @media screen and (min-width:576px) {
     .heading {
@@ -60,10 +82,10 @@ a {
         font-size: 23px;
     }
 
-    .btn-primary {
+    .btn-primary,
+    .btn-secondary {
         font-size: 18px;
         padding: 20px 40px;
-
     }
 }
 
@@ -169,9 +191,6 @@ header {
     background-color: #F5F5F5;
     border-bottom: 1px solid rgba(144, 144, 144, 0.25);
     border-top: 1px solid rgba(144, 144, 144, 0.25);
-    min-height: 650px;
-    text-align: center;
-    padding: 90px 40px;
 }
 
 .cards {
@@ -235,9 +254,6 @@ header {
 
 .testimonial {
     background-color: #fff;
-    min-height: 650px;
-    text-align: center;
-    padding: 90px 40px;
 }
 
 .info {
@@ -291,5 +307,75 @@ header {
 
     .info {
         padding: 0 18%;
+    }
+}
+
+/* contact */
+.contact {
+    background-color: #3cadd4;
+}
+
+.contact h3,
+.contact p {
+    color: #fff;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    text-align: center;
+
+}
+
+input,
+textarea {
+    border: none;
+    border-radius: 5px;
+    color: #858585;
+    font-size: 12px;
+    padding: 10px;
+    text-transform: capitalize;
+    font-family: inherit;
+    flex: 1;
+}
+
+input:focus,
+textarea:focus {
+    border: 1px solid #000;
+    outline: none;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+textarea {
+    resize: none;
+    height: 300px;
+}
+
+@media screen and (min-width:768px) {
+    .input-group {
+        flex-direction: row;
+    }
+
+    form {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    form {
+        width: 50%;
     }
 }

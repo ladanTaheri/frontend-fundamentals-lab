@@ -1,4 +1,5 @@
 @import url(../assets/font-awesome/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* public */
 * {
@@ -8,7 +9,7 @@
 }
 
 body {
-    font-family: 'raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a {
@@ -389,6 +390,7 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding-left: 20px;
 }
 
 footer ul {
@@ -397,7 +399,6 @@ footer ul {
     display: flex;
     gap: 20px;
     flex-direction: column;
-    padding-left: 0px;
 }
 
 footer a {
@@ -415,8 +416,6 @@ footer a:hover {
 
     footer ul {
         flex-direction: row;
-        padding-left: 20px;
-
     }
 }
 
@@ -427,6 +426,5 @@ footer a:hover {
 
     footer ul {
         flex-direction: row;
-        padding-left: 20px;
     }
 }

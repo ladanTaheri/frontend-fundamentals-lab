@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NewsBit</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <a href="#" class="navbar-brand"
+            ><img src="images/logo-black.png" alt="NewsBit-logo"
+          /></a>
+          <button class="navbar-toggler" onclick="togglerClick()">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </button>
+          <ul id="navbar-items">
+            <li><a href="#">NEWS</a></li>
+            <li><a href="#">GUIDES & ANALYTICS</a></li>
+            <li><a href="#">EVENTS</a></li>
+            <li><a href="#">EXPLAINED</a></li>
+            <li><a href="#">ICON CALENDAR</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+  </body>
+  <script>
+    const togglerClick = () => {
+      let element = document.getElementById("navbar-items");
+      element.classList.toggle("collapse");
+    };
+  </script>
+</html>

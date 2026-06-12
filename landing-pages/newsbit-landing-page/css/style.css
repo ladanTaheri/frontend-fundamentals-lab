@@ -37,6 +37,7 @@ ul {
     position: relative;
     text-transform: uppercase;
     padding-bottom: 15px;
+    margin-bottom: 35px;
 }
 
 .heading::after {
@@ -351,4 +352,172 @@ nav ul li a {
     .description {
         background-color: transparent;
     }
+}
+
+/* main */
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+.news {
+    flex: 1;
+    padding-right: 0px;
+
+}
+
+aside {
+    flex: 1;
+    min-height: 400px;
+    padding-left: 0px;
+}
+
+
+@media (min-width:992px) {
+    main {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .news {
+        flex: 2;
+    }
+
+    aside {
+        flex: 1;
+        padding-left: 80px;
+
+    }
+}
+
+/* recent-news */
+.news article h4 {
+    font-weight: 700;
+    margin: 15px 0;
+    line-height: 23px;
+}
+
+.news article ul {
+    color: #919191;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.news article img {
+    width: 100%;
+    height: auto;
+}
+
+.news article p {
+    color: rgb(85, 85, 85);
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+/* crypto-news */
+.crypto-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+@media (min-width:576px) {
+    .crypto-wrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+}
+
+/* popular-post */
+.popular-post {
+    margin-bottom: 50px;
+}
+
+.popular-post article {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.popular-post article img {
+    width: 100px;
+    height: 100px;
+}
+
+.popular-post article div {
+    padding-left: 15px;
+}
+
+.popular-post article h5 {
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 23px;
+    font-size: 16px;
+}
+
+.popular-post article p {
+    color: #919191;
+    font-size: 12px;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+/* ratio */
+.ratio {
+    margin-bottom: 50px;
+}
+
+.ratio ul li {
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(51, 51, 51);
+    background-color: #F8B500;
+    border-bottom: 1px solid #fff;
+    padding: 15px 0;
+}
+
+/* newsletter */
+.newsletter form {
+    display: flex;
+}
+
+.newsletter p {
+    color: rgb(85, 85, 85);
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.newsletter input {
+    padding: 12px;
+    color: #CCCCCC;
+    border: 1px solid #F9B500;
+    flex: 1;
+}
+
+.newsletter input:focus {
+    outline: 1px solid #F9B500;
+
+}
+
+.newsletter button {
+    padding: 12px;
+    color: #333333;
+    border: 1px solid #F9B500;
+    background-color: #F8B500;
+    width: 50px;
+    transition: all .2s ease-in-out;
+}
+
+.newsletter button:hover {
+    color: #ffffff;
+    border: 1px solid #000000;
+    background-color: #000000;
+    cursor: pointer;
 }

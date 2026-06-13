@@ -521,3 +521,100 @@ aside {
     background-color: #000000;
     cursor: pointer;
 }
+
+/* footer */
+footer {
+    background-color: #191919;
+    color: #AAAAAA;
+}
+
+.footer-top-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom: 1px solid #3F4444;
+    padding: 50px 10px;
+
+}
+
+.footer-top-section div {
+    flex: 1;
+}
+
+.footer-top-section p {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 20px 0;
+}
+
+.footer-bottom-section {
+    padding: 10px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer-bottom-section ul {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-bottom-section li a {
+    color: #aaa;
+    font-size: 10px;
+    line-height: 14px;
+    font-weight: 400;
+}
+
+.footer-bottom-section li a:hover {
+    color: #F9B500;
+}
+
+.footer-top-section h5 {
+    font-size: 15px;
+    color: #F9B500;
+    line-height: 23px;
+}
+
+.popular article {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    border-bottom: 1px solid #3F4444;
+}
+
+.popular>article:last-of-type {
+    border-bottom: none;
+}
+
+.popular article h6 a {
+    font-size: 14px;
+    color: #fff;
+    line-height: 18px;
+}
+
+.popular article h6 a:hover {
+    color: #F8B500;
+}
+
+.popular article span {
+    color: rgb(204, 204, 204);
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+@media (min-width:576px) {
+    .footer-top-section {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        justify-content: space-between;
+    }
+    
+
+    .footer-bottom-section {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

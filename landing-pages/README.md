@@ -5,6 +5,8 @@ A collection of landing page projects built as part of frontend development lear
 ## Included Examples
 
 - Transit Landing Page
+- Newsbit Landing Page
+
 
 
 ## Technologies

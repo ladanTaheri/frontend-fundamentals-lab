@@ -173,28 +173,9 @@ nav ul li a {
         display: flex;
         gap: 30px;
     }
-
-    .navbar-toggler {
-        display: none;
-    }
 }
 
-@media screen and (min-width:1200px) {
-    .navbar-brand img {
-        width: 100%;
-    }
-
-    nav ul {
-        display: flex;
-        gap: 30px;
-    }
-
-    .navbar-toggler {
-        display: none;
-    }
-}
-
-/* intro */
+/* hero */
 .row {
     display: flex;
     flex-direction: column;
@@ -208,14 +189,14 @@ nav ul li a {
     gap: 10px;
 }
 
-.intro {
+.hero {
     display: flex;
     flex-direction: column;
     gap: 10px;
 
 }
 
-.intro article {
+.hero article {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -227,7 +208,7 @@ nav ul li a {
 
 }
 
-.intro article::after {
+.hero article::after {
     content: '';
     position: absolute;
     top: 0;
@@ -239,27 +220,27 @@ nav ul li a {
     background: linear-gradient(to top, #000 0%, rgba(0, 0, 0, .4) 100%);
 }
 
-.article-1 {
+.hero-main {
     background-image: url('../images/slider-1.jpg');
 }
 
-.article-2 {
+.hero-card-2 {
     background-image: url('../images/slider-2.jpg');
 }
 
-.article-3 {
+.hero-card-3 {
     background-image: url('../images/slider-3.jpg');
 }
 
-.article-4 {
+.hero-card-4 {
     background-image: url('../images/slider-4.jpg');
 }
 
-.article-5 {
+.hero-card-5 {
     background-image: url('../images/slider-5.jpg');
 }
 
-.article-6 {
+.hero-card-6 {
     background-image: url('../images/slider-6.jpg');
 }
 
@@ -315,27 +296,27 @@ nav ul li a {
         gap: 10px;
     }
 
-    .intro article {
+    .hero article {
         height: 200px;
     }
 
-    .article-1 {
+    .hero-main {
         height: 400px !important;
         flex: 2;
     }
 
-    .article-2,
-    .article-3 {
+    .hero-card-2,
+    .hero-card-3 {
         flex: 1;
     }
 
-    .article-4,
-    .article-5,
-    .article-6 {
+    .hero-card-4,
+    .hero-card-5,
+    .hero-card-6 {
         flex: 0 1 calc(33.33% - 8px);
     }
 
-    .article-6 {
+    .hero-card-6 {
         flex: 1;
     }
 
@@ -449,7 +430,7 @@ aside {
     height: 100px;
 }
 
-.popular-post article div {
+.popular-post-description {
     padding-left: 15px;
 }
 
@@ -528,12 +509,19 @@ footer {
     color: #AAAAAA;
 }
 
+.bg-map {
+    background-image: url('../images/map.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .footer-top-section {
     display: flex;
     flex-direction: column;
     gap: 10px;
     border-bottom: 1px solid #3F4444;
     padding: 50px 10px;
+    background-color: rgba(25, 25, 25, .9);
 
 }
 
@@ -552,7 +540,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    background-color: rgba(25, 25, 25, .9);
 }
 
 .footer-bottom-section ul {
@@ -604,6 +592,8 @@ footer {
     margin-top: 10px;
 }
 
+
+
 @media (min-width:576px) {
     .footer-top-section {
         display: flex;
@@ -611,7 +601,7 @@ footer {
         gap: 30px;
         justify-content: space-between;
     }
-    
+
 
     .footer-bottom-section {
         flex-direction: row;

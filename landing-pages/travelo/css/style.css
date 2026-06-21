@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('../assets/font-awesome/css/font-awesome.min.css');
+
+/* shared */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: rgb(255, 74, 82);
+    --content-color: rgb(4, 14, 39);
+    --content-light-color: rgb(170, 177, 183);
+    --light-green: #1EC6B6;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    font-family: "Nothing You Could Do", cursive, Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: "Rubik", sans-serif, Arial, Helvetica;
+    font-optical-sizing: auto;
+    font-size: 14px;
+}
+
+/* navbar */
+
+header nav {
+    padding: 30px 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.main-menu {
+    display: none;
+
+}
+
+.contact-menu li a {
+    color: var(--content-light-color);
+    font-size: 16px;
+    transition: color .2s ease-in-out;
+}
+
+.contact-menu li a:hover {
+    color: var(--primary-color);
+
+}
+
+.social {
+    display: none;
+}
+
+.main-menu li a,
+.phone {
+    color: var(--content-color);
+    text-transform: capitalize;
+    font-size: 15px;
+    transition: color .2s ease-in-out;
+}
+
+.phone {
+    display: none;
+    position: relative;
+    letter-spacing: 1px;
+}
+
+
+.phone i {
+    color: var(--primary-color);
+}
+
+.main-menu li a:hover {
+    color: var(--light-green);
+}
+
+.search-icon,
+.toggler {
+    height: 109px;
+    width: 80px;
+    position: absolute;
+    padding: 40px 35px;
+
+}
+
+.search-icon {
+    background-color: var(--primary-color);
+    color: #fff;
+    right: 80px;
+    top: 0;
+    font-size: 16px;
+}
+
+.toggler {
+    display: flex;
+    background-color: #fff;
+    color: var(--content-color);
+    right: 0;
+    top: 0;
+    font-size: 24px;
+}
+
+.contact-menu {
+    display: flex;
+    gap: 20px;
+}
+
+@media (min-width: 992px) {
+    .main-menu {
+        display: flex;
+        gap: 40px;
+    }
+
+    .toggler {
+        display: none;
+    }
+
+    .search-icon {
+        right: 0;
+        top: 0;
+    }
+
+    header nav {
+        justify-content: space-between;
+    }
+
+    .phone {
+        display: flex;
+    }
+
+    .phone::after {
+        content: none;
+
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .phone::after {
+        content: '';
+        position: absolute;
+        height: 30px;
+        width: 2px;
+        background-color: #ecebeb;
+        top: -5px;
+        right: -10px;
+    }
+
+    .social {
+        display: flex;
+    }
+
+}

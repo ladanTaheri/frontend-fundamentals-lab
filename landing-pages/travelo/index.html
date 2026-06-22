@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travelo</title>
     <link rel="stylesheet" href="css/style.css" />
+    <script src="js/index.js" defer></script>
   </head>
   <body>
     <header>
@@ -12,7 +13,7 @@
         <a class="navbar-brand" href="#">
           <img src="images/logo.png" alt="Travelo-logo" />
         </a>
-        <ul class="main-menu">
+        <ul class="main-menu" id="me">
           <li><a href="#">home</a></li>
           <li><a href="#">about</a></li>
           <li><a href="#">destination</a></li>
@@ -42,7 +43,9 @@
             <a href="#" class="search-icon"> <i class="fa fa-search"></i></a>
           </li>
           <li>
-            <a href="#" class="toggler"> <i class="fa fa-bars"></i></a>
+            <button class="toggler">
+              <i class="fa fa-bars"></i>
+            </button>
           </li>
         </ul>
       </nav>

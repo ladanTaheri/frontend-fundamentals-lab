@@ -1,20 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('../assets/font-awesome/css/font-awesome.min.css');
+@import url('variables.css');
 
 /* shared */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-:root {
-    --primary-color: rgb(255, 74, 82);
-    --content-color: rgb(4, 14, 39);
-    --content-light-color: rgb(170, 177, 183);
-    --light-green: #1EC6B6;
-
 }
 
 ul {
@@ -37,10 +30,9 @@ body {
 }
 
 /* navbar */
-
 header nav {
     padding: 30px 20px;
-    background-color: #fff;
+    background-color: var(--white);
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -103,7 +95,7 @@ header nav {
     background-color: var(--primary-color);
     color: #fff;
     right: 80px;
-    top: 0;
+    bottom: 0;
     font-size: 16px;
 }
 
@@ -112,8 +104,9 @@ header nav {
     background-color: #fff;
     color: var(--content-color);
     right: 0;
-    top: 0;
+    bottom: 0;
     font-size: 24px;
+    border: none;
 }
 
 .contact-menu {
@@ -121,7 +114,24 @@ header nav {
     gap: 20px;
 }
 
+.collapse {
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    left: 5%;
+    right: 5%;
+    background-color: #fff;
+    z-index: 1;
+    width: 90%;
+}
+
+.collapse li a {
+    padding: 10px;
+    display: inline-block;
+}
+
 @media (min-width: 992px) {
+
     .main-menu {
         display: flex;
         gap: 40px;

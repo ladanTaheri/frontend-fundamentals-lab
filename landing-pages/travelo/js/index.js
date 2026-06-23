@@ -1,6 +1,9 @@
-const showMenu = () => {
-  let element = document.querySelector(".main-menu");
-  element.classList.toggle("collapse");
-};
+const menu = document.querySelector(".main-menu");
+const toggler = document.querySelector(".toggler");
 
-document.querySelector(".toggler").addEventListener("click", showMenu);
+const showMenu = () => {
+  menu.classList.toggle("collapse");
+};
+if (toggler && menu) {
+  toggler.addEventListener("click", showMenu);
+}

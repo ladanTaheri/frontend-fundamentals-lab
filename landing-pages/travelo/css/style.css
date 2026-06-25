@@ -268,9 +268,9 @@ header nav {
     padding: 40px 0;
 }
 
-.travel-search p {
+.travel-search h3 {
     font-size: 24px;
-
+    font-weight: 400;
 }
 
 .travel-search form input,
@@ -354,6 +354,7 @@ header nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .popular-destinations-header {
@@ -482,5 +483,107 @@ header nav {
     .destinations figure {
         width: 100%;
         height: 260px;
+    }
+}
+
+/* newsletter */
+
+.newsletter {
+    background-image: url("../images/newsletter.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 74px 12% 64px 12%;
+    position: relative;
+}
+
+.newsletter::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+    opacity: .6;
+    background: var(--content-color);
+}
+
+.newsletter-content {
+    flex: 1;
+    z-index: 1;
+    max-width: 550px;
+}
+
+.newsletter-content h3 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.newsletter-content p {
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--content-secondary-color);
+}
+
+.newsletter-form {
+    flex: 1;
+    z-index: 1;
+
+}
+
+.newsletter-form input {
+    background-color: var(--white);
+    color: var(--content-color);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: inherit;
+    padding: 12px;
+    width: 100%;
+}
+
+.newsletter-form input::placeholder {
+    color: var(--light-gray)
+}
+
+.newsletter-form input:focus {
+    outline: none;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding-top: 5px;
+}
+
+
+@media (min-width:768px) {
+    .newsletter {
+        align-items: flex-start;
+    }
+
+    .newsletter-form {
+        flex-direction: row;
+        width: 80%;
+    }
+}
+
+@media (min-width:992px) {
+    .newsletter {
+        flex-direction: row;
+    }
+
+    .newsletter-form {
+        width: auto;
+        max-width: 550px;
     }
 }

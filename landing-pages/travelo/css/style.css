@@ -656,6 +656,10 @@ header nav {
 footer {
     background-color: var(--content-color);
     color: var(--content-secondary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 

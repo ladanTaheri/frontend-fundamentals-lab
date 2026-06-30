@@ -45,7 +45,7 @@ This project was created to improve practical front-end development skills by re
 Desktop version screenshots are available in the preview folder.
 
 ## Live Demo
-Coming soon…
+https://ladantaheri.github.io/frontend-fundamentals-lab/landing-pages/travelo-landing-page
 
 ## Design Reference
 The UI design was inspired by the Travelo template by ThemeWagon.

@@ -5,6 +5,7 @@ A curated collection of frontend UI examples and foundational implementations bu
 ## Categories
 
 - Components
+- Landing Pages
 - Layouts
 - Typography Effects
 
@@ -12,9 +13,18 @@ A curated collection of frontend UI examples and foundational implementations bu
 
 - HTML5
 - CSS3
+- JavaScript (ES6+)
 - Flexbox
+- CSS Grid
+- CSS Variables
 - Font Awesome
+- Google Fonts
+- Responsive Design
 
 ## Purpose
 
 This repository contains educational frontend examples and UI implementation samples focused on core frontend development concepts, reusable components, layout techniques, and modern CSS practices.
+
+
+## Author
+Ladan Taheri

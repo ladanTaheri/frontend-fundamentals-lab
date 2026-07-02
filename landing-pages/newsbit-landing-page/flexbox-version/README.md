@@ -30,5 +30,8 @@ A responsive crypto news website built with HTML and CSS3 as part of the Fronten
 ## Preview
 Desktop version screenshots are available in the preview folder.
 
+## Live Demo
+https://ladantaheri.github.io/frontend-fundamentals-lab/landing-pages/newsbit-landing-page/flexbox-version
+
 ## Author
 Ladan Taheri 

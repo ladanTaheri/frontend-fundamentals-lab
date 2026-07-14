@@ -20,4 +20,8 @@ A dark-themed dashboard table UI example built with HTML and CSS.
 
 This example demonstrates table styling techniques for dashboard-style interfaces using classic CSS layout and hover interactions.
 
+## Preview
+Desktop version screenshots are available in the preview folder.
 
+## Live Demo
+https://ladantaheri.github.io/frontend-fundamentals-lab/components/styled-tables/dark-table-ui/

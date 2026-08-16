@@ -1,4 +1,4 @@
- ## Classic Flex Layout
+## Classic Flex Layout
 
 A classic two-column page layout built using Flexbox.
 
@@ -15,6 +15,10 @@ A classic two-column page layout built using Flexbox.
 - HTML5
 - CSS3
 - Flexbox
+
+## Live Demo
+
+https://ladantaheri.github.io/frontend-fundamentals-lab/layouts/classic-flex-layout/
 
 ## Purpose
 

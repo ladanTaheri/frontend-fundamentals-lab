@@ -18,6 +18,10 @@ A navigation menu implementation built with HTML and CSS using Flexbox for layou
 - Flexbox
 - Font Awesome
 
+
+## Live Demo
+https://ladantaheri.github.io/frontend-fundamentals-lab/components/navigation-menus/navbar-flexbox/
+
 ## Purpose
 
 This example demonstrates how Flexbox can be used to create responsive-friendly navigation menus with aligned icons, interactive states, and clean horizontal layouts.
